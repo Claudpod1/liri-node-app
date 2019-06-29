@@ -12,22 +12,33 @@ var spotify = new Spotify(keys.spotify);
 var action = process.argv[2];
 var user = process.argv.slice(3).join("+");
 
+// * Title of the movie.
+// * Year the movie came out.
+// * IMDB Rating of the movie.
+// * Rotten Tomatoes Rating of the movie.
+// * Country where the movie was produced.
+// * Language of the movie.
+// * Plot of the movie.
+// * Actors in the movie.
 
 
 
-var queryUrl = "http://www.omdbapi.com/?t=" + user + "&y=&plot=short&apikey=trilogy";
+function moviethis(info) {
 
-console.log(queryUrl);
+    if (!info) {
+        info = "Mr.Nobody";
+    }
 
+    console.log(info);
 
+    var queryUrl = "http://www.omdbapi.com/?t=" + info + "&y=&plot=short&apikey=trilogy";
 
-function moviethis() {
     axios.get(queryUrl).then(
         function (response) {
             console.log("Title of the movie:" + response.data.Title);
             console.log("Release Year:" + response.data.Year);
             console.log("Rating:" + response.data.Rated);
-            console.log("Rotten Tomatoes Rating:" + response.data.Ratings[1].Value);
+            console.log("Rotten Tomatoes Rating:" + response.data.Ratings[0].Value);
             console.log("Country where the the movie was produced:" + response.data.Country);
             console.log("Language:" + response.data.Language);
             console.log("Plot of the movie:" + response.data.Plot);
@@ -48,32 +59,60 @@ function moviethis() {
 }
 
 
-
-
-
-// * Title of the movie.
-// * Year the movie came out.
-// * IMDB Rating of the movie.
-// * Rotten Tomatoes Rating of the movie.
-// * Country where the movie was produced.
-// * Language of the movie.
-// * Plot of the movie.
-// * Actors in the movie.
-
-
 function concertthis(info) {
-    console.log(`Your in concert this ${info}`)
+
+    var queryUrl = "https://rest.bandsintown.com/artists/" + info + "/events?app_id=codingbootcamp";
+    //put in the momemt ????
+    axios.get(queryUrl).then(
+
+        function (response) {
+            console.log(response.data.length);
+            
+            if (response.data.length === 0) {
+                console.log("There are no upcoming shows");
+                
+            } else {
+                for (var i = 0; i < response.data.length; i++) {
+
+                    console.log("Upcoming upcoming concerts for: " + response.data[i].lineup);
+                    console.log("Location " + response.data[i].venue.name);
+                    //      * Date of the Event (use moment to format this as "MM/DD/YYYY")
+                    console.log("Date: " + (moment(response.data[i].datetime).format('LLL')));
+                }
+
+            }
+        })
 }
+
+
+
 
 function spotifythis(info) {
-    spotify.search({ type: 'track', query: info }, function (err, data) {
+
+    if (!info) {
+        info = "The Sign";
+    }
+    spotify.search({ type: 'track', query: info, limit: 5 }, function (err, data) {
+
+
         if (err) {
             return console.log('Error occurred: ' + err);
-        }
+        } 
+            var responseData = data.tracks;
+            
+            for (var i = 0; i < responseData.items.length; i++) {
+                console.log("Spotify this song artist(s): " + responseData.items[i].artists[0].name);
+                console.log("The song's name: " + responseData.items[i].name);
+                console.log("A preview link of the song from spotify:" + responseData.items[i].external_urls.spotify);
+                console.log("The album that the song is from: " + responseData.items[i].album.name);
+                console.log("-----------------------------------------------------");
+            }
 
-        console.log(data);
-    });
+        
+    })
+
 }
+
 
 
 
@@ -110,11 +149,3 @@ function switCase(command, info) {
 }
 
 switCase(action, user);
-
-// * `concert-this`
-
-//    * `spotify-this-song`
-
-//    * `movie-this`
-
-//    * `do-what-it-says`
