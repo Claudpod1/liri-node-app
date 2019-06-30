@@ -24,3 +24,123 @@ Thomas Rhett,Die A Happy Man,https://open.spotify.com/track/5kNe7PE09d6Kvw5pAsx2
 Thomas Rhett,Die A Happy Man,https://open.spotify.com/track/5kNe7PE09d6Kvw5pAsx23n,Tangled Up,Kygo,Happy Now,https://open.spotify.com/track/14sOS5L36385FJ3OL8hew4,Happy Now,Grouplove,Tongue Tied,https://open.spotify.com/track/0GO8y8jQk1PkHzS31d699N,Never Trust A Happy Song
 Thomas Rhett,Die A Happy Man,https://open.spotify.com/track/5kNe7PE09d6Kvw5pAsx23n,Tangled Up,Kygo,Happy Now,https://open.spotify.com/track/14sOS5L36385FJ3OL8hew4,Happy Now,Grouplove,Tongue Tied,https://open.spotify.com/track/0GO8y8jQk1PkHzS31d699N,Never Trust A Happy Song,Zedd,Happy Now,https://open.spotify.com/track/4keoy2fqgwGnbWlm3ZVZFa,Happy Now
 Thomas Rhett,Die A Happy Man,https://open.spotify.com/track/5kNe7PE09d6Kvw5pAsx23n,Tangled Up,Kygo,Happy Now,https://open.spotify.com/track/14sOS5L36385FJ3OL8hew4,Happy Now
+Ariana Grande,Normani Kordei,Social House,Bankers Life Fieldhouse,June 29, 2019 7:00 PM
+Ariana Grande,Normani Kordei,Social House,Schottenstein Center,July 1, 2019 7:00 PM
+Ariana Grande,Normani Kordei,Social House,Pepsi Center,July 11, 2019 7:00 PM
+Ariana Grande,Normani Kordei,Social House,Vivint Smart Home Arena,July 13, 2019 7:00 PM
+Ariana Grande,Lollapalooza,August 4, 2019 7:00 PM
+Ariana Grande,The O2,August 17, 2019 7:00 PM
+Ariana Grande,The O2,August 19, 2019 7:00 PM
+Ariana Grande,The O2,August 20, 2019 7:00 PM
+Ariana Grande,Ziggo Dome,August 23, 2019 7:00 PM
+Ariana Grande,Ziggo Dome,August 24, 2019 7:00 PM
+Ariana Grande,Bananarama,Hercules and Love Affair,Chelcee Grimes,Becky Hill,Four Of Diamonds,Mayfield,August 25, 2019 4:00 PM
+Ariana Grande,Accorhotels Arena,August 27, 2019 7:00 PM
+Ariana Grande,Accorhotels Arena,August 28, 2019 7:00 PM
+Ariana Grande,Antwerps Sportpaleis,August 30, 2019 7:00 PM
+Ariana Grande,Lanxess Arena,September 1, 2019 7:00 PM
+Ariana Grande,Wiener Stadthalle,September 3, 2019 7:00 PM
+Ariana Grande,Barclaycard Arena Hamburg,September 5, 2019 7:00 PM
+Ariana Grande,O2 Arena,September 8, 2019 7:00 PM
+Ariana Grande,Tauron Arena,September 9, 2019 7:00 PM
+Ariana Grande,Ziggo Dome,September 11, 2019 7:00 PM
+Ariana Grande,Arena Birmingham,September 14, 2019 7:00 PM
+Ariana Grande,Arena Birmingham,September 15, 2019 7:00 PM
+Ariana Grande,Normani Kordei,Social House,Xcel Energy Center,July 8, 2019 7:00 PM
+Ariana Grande,FlyDSA Arena,September 19, 2019 7:00 PM
+Ariana Grande,3Arena,September 22, 2019 7:00 PM
+Ariana Grande,3Arena,September 23, 2019 7:00 PM
+Ariana Grande,Ella Mai,3Arena,September 25, 2019 6:30 PM
+Ariana Grande,Barclaycard Arena Hamburg,September 28, 2019 7:00 PM
+Ariana Grande,Royal Arena,October 1, 2019 7:00 PM
+Ariana Grande,Normani Kordei,Social House,Fiserv Forum,July 5, 2019 7:00 PM
+Ariana Grande,Normani Kordei,Social House,Enterprise Center,July 6, 2019 7:00 PM
+Ariana Grande,Ericsson Globe,October 7, 2019 7:00 PM
+Ariana Grande,Mercedes-Benz Arena,October 10, 2019 7:00 PM
+Ariana Grande,Hallenstadion,October 13, 2019 7:00 PM
+Ariana Grande,The O2,October 15, 2019 7:00 PM
+Ariana Grande,The O2,October 16, 2019 7:00 PM
+Ariana Grande,Nassau Veterans Memorial Coliseum,November 9, 2019 7:00 PM
+Ariana Grande,Hartwall Arena,October 5, 2019 7:00 PM
+Ariana Grande,Telenor Arena,October 3, 2019 7:00 PM
+Ariana Grande,Rupp Arena,November 17, 2019 7:00 PM
+Ariana Grande,State Farm Arena,November 19, 2019 7:00 PM
+Ariana Grande,PNC Arena,November 22, 2019 7:00 PM
+Ariana Grande,Amalie Arena,November 24, 2019 8:00 PM
+Ariana Grande,Amway Center,November 25, 2019 8:00 PM
+Ariana Grande,American Airlines Arena,November 27, 2019 7:00 PM
+Ariana Grande,John Paul Jones Arena,November 15, 2019 7:00 PM
+Ariana Grande,Colonial Life Arena,December 3, 2019 7:00 PM
+Ariana Grande,Bridgestone Arena,December 5, 2019 7:00 PM
+Ariana Grande,FedEx Forum,December 7, 2019 7:00 PM
+Ariana Grande,American Airlines Center,December 9, 2019 7:00 PM
+Ariana Grande,Talking Stick Resort Arena,December 12, 2019 7:00 PM
+Ariana Grande,Honda Center,December 13, 2019 7:00 PM
+Ariana Grande,Grand Garden Arena,December 15, 2019 7:00 PM
+Ariana Grande,Chase Center Experience,December 17, 2019 7:00 PM
+Ariana Grande,The Forum,December 21, 2019 7:00 PM
+Ariana Grande,SSE Hydro,September 17, 2019 7:00 PM
+Ariana Grande,VyStar Veterans Memorial Arena,December 1, 2019 7:00 PM
+Ariana Grande,Barclays Center,November 12, 2019 7:00 PM
+Ariana Grande,Normani Kordei,Social House,Bankers Life Fieldhouse,June 29, 2019 7:00 PM
+Ariana Grande,Normani Kordei,Social House,Enterprise Center,July 6, 2019 7:00 PM
+Ariana Grande,Normani Kordei,Social House,Pepsi Center,July 11, 2019 7:00 PM
+Ariana Grande,Normani Kordei,Social House,Vivint Smart Home Arena,July 13, 2019 7:00 PM
+Ariana Grande,Lollapalooza,August 4, 2019 7:00 PM
+Ariana Grande,The O2,August 17, 2019 7:00 PM
+Ariana Grande,The O2,August 19, 2019 7:00 PM
+Ariana Grande,The O2,August 20, 2019 7:00 PM
+Ariana Grande,Ziggo Dome,August 23, 2019 7:00 PM
+Ariana Grande,Ziggo Dome,August 24, 2019 7:00 PM
+Ariana Grande,Bananarama,Hercules and Love Affair,Chelcee Grimes,Becky Hill,Four Of Diamonds,Mayfield,August 25, 2019 4:00 PM
+Ariana Grande,Accorhotels Arena,August 27, 2019 7:00 PM
+Ariana Grande,Accorhotels Arena,August 28, 2019 7:00 PM
+Ariana Grande,Antwerps Sportpaleis,August 30, 2019 7:00 PM
+Ariana Grande,Lanxess Arena,September 1, 2019 7:00 PM
+Ariana Grande,Wiener Stadthalle,September 3, 2019 7:00 PM
+Ariana Grande,Barclaycard Arena Hamburg,September 5, 2019 7:00 PM
+Ariana Grande,O2 Arena,September 8, 2019 7:00 PM
+Ariana Grande,Tauron Arena,September 9, 2019 7:00 PM
+Ariana Grande,Ziggo Dome,September 11, 2019 7:00 PM
+Ariana Grande,Arena Birmingham,September 14, 2019 7:00 PM
+Ariana Grande,Arena Birmingham,September 15, 2019 7:00 PM
+Ariana Grande,SSE Hydro,September 17, 2019 7:00 PM
+Ariana Grande,FlyDSA Arena,September 19, 2019 7:00 PM
+Ariana Grande,3Arena,September 22, 2019 7:00 PM
+Ariana Grande,3Arena,September 23, 2019 7:00 PM
+Ariana Grande,Ella Mai,3Arena,September 25, 2019 6:30 PM
+Ariana Grande,Barclaycard Arena Hamburg,September 28, 2019 7:00 PM
+Ariana Grande,Royal Arena,October 1, 2019 7:00 PM
+Ariana Grande,Telenor Arena,October 3, 2019 7:00 PM
+Ariana Grande,Hartwall Arena,October 5, 2019 7:00 PM
+Ariana Grande,Ericsson Globe,October 7, 2019 7:00 PM
+Ariana Grande,Mercedes-Benz Arena,October 10, 2019 7:00 PM
+Ariana Grande,Hallenstadion,October 13, 2019 7:00 PM
+Ariana Grande,The O2,October 15, 2019 7:00 PM
+Ariana Grande,The O2,October 16, 2019 7:00 PM
+Ariana Grande,Normani Kordei,Social House,Xcel Energy Center,July 8, 2019 7:00 PM
+Ariana Grande,Barclays Center,November 12, 2019 7:00 PM
+Ariana Grande,John Paul Jones Arena,November 15, 2019 7:00 PM
+Ariana Grande,Rupp Arena,November 17, 2019 7:00 PM
+Ariana Grande,State Farm Arena,November 19, 2019 7:00 PM
+Ariana Grande,PNC Arena,November 22, 2019 7:00 PM
+Ariana Grande,Amalie Arena,November 24, 2019 8:00 PM
+Ariana Grande,Amway Center,November 25, 2019 8:00 PM
+Ariana Grande,American Airlines Arena,November 27, 2019 7:00 PM
+Ariana Grande,VyStar Veterans Memorial Arena,December 1, 2019 7:00 PM
+Ariana Grande,Colonial Life Arena,December 3, 2019 7:00 PM
+Ariana Grande,Bridgestone Arena,December 5, 2019 7:00 PM
+Ariana Grande,FedEx Forum,December 7, 2019 7:00 PM
+Ariana Grande,American Airlines Center,December 9, 2019 7:00 PM
+Ariana Grande,Talking Stick Resort Arena,December 12, 2019 7:00 PM
+Ariana Grande,Honda Center,December 13, 2019 7:00 PM
+Ariana Grande,Normani Kordei,Social House,Schottenstein Center,July 1, 2019 7:00 PM
+Ariana Grande,Chase Center Experience,December 17, 2019 7:00 PM
+Ariana Grande,The Forum,December 21, 2019 7:00 PM
+Ariana Grande,Nassau Veterans Memorial Coliseum,November 9, 2019 7:00 PM
+Ariana Grande,Normani Kordei,Social House,Fiserv Forum,July 5, 2019 7:00 PM
+Ariana Grande,Grand Garden Arena,December 15, 2019 7:00 PM
+Death of Cupid,Mr.Brightside,https://open.spotify.com/track/2jB1tKR7HSJLI8lg7IRgB3,X V I
+Death of Cupid,Mr.Brightside,https://open.spotify.com/track/2jB1tKR7HSJLI8lg7IRgB3,X V I,S'cLean,Mr.Brightside,https://open.spotify.com/track/19qrYONvfJIJopALOkyGZz,Mr.Brightside
+Death of Cupid,Mr.Brightside,https://open.spotify.com/track/2jB1tKR7HSJLI8lg7IRgB3,X V I,S'cLean,Mr.Brightside,https://open.spotify.com/track/19qrYONvfJIJopALOkyGZz,Mr.Brightside
+Death of Cupid,Mr.Brightside,https://open.spotify.com/track/2jB1tKR7HSJLI8lg7IRgB3,X V I

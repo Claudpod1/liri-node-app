@@ -26,11 +26,11 @@ First, the user would go into there bash/terminal and run one of the node functi
 
 Below is a screenshot of the output for the example of the movie Titanic. 
 
-<img src ="images/MOVIE-THIS.png" width = 800px height = 600px>
+<img src ="images/MOVIE-THIS.png" width = 800px height = 500px>
 
 
 
-In the spotify-this-song function, the user is able to search for any song. In return will get output fields includeing:
+In the spotify-this-song function, the user is able to search for any song. In return will get output fields including:
 * Artist(s)
 * The song's name 
 * A preview link of the song from Spotify
@@ -41,10 +41,20 @@ In the spotify-this-song function, the user is able to search for any song. In r
 
 Below is a screenshot of the output for the example of the song happy. 
 
-<img src ="images/Spotify-this.png" width = 800px height = 600px>
+<img src ="images/Spotify-this.png" width = 800px height = 500px>
 
 
 
+In the concert-this function, the user is able to search for any artist. In reture will get the output if the artist is on tour and will return including:
+* Name of the venue
+* Venue location
+* Date of the Event (use moment to format this as "MM/DD/YYYY")
+
+--Then updates that search to the log.txt file.-- 
+
+elow is a screenshot of the output for the example of the artist Ariana Grande. 
+
+<img src ="images/concert-this.png" width = 800px height = 500px>
 
 
 
