@@ -26,7 +26,7 @@ First, the user would go into there bash/terminal and run one of the node functi
 
 Below is a screenshot of the output for the example of the movie Titanic. 
 
-<img src ="images/MOVIE-THIS.png" width = 800px height = 500px>
+<img src ="images/MOVIE-THIS.png" width = 500px height = 200px>
 
 
 
@@ -41,7 +41,7 @@ In the spotify-this-song function, the user is able to search for any song. In r
 
 Below is a screenshot of the output for the example of the song happy. 
 
-<img src ="images/Spotify-this.png" width = 800px height = 500px>
+<img src ="images/Spotify-this.png" width = 500px height = 200px>
 
 
 
@@ -52,9 +52,38 @@ In the concert-this function, the user is able to search for any artist. In retu
 
 --Then updates that search to the log.txt file.-- 
 
-elow is a screenshot of the output for the example of the artist Ariana Grande. 
+Below is a screenshot of the output for the example of the artist Ariana Grande. 
 
-<img src ="images/concert-this.png" width = 800px height = 500px>
+<img src ="images/concert-this.png" width = 500px height = 200px>
 
 
 
+In the do-what-it-says function, LIRI will take the text inside of random.txt and then use it to call one of Liri's Commands. 
+
+Below is a screenshot of the output for the example of do-what-it-says
+
+<img src ="images/dowhatitsays.png" width = 500px height = 200px>
+
+
+
+
+ TECHnologies used in the application: 
+
+* [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
+
+* [Axios](https://www.npmjs.com/package/axios)
+
+* OMDB API](http://www.omdbapi.com) and the [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api)
+
+* [Moment](https://www.npmjs.com/package/moment)
+
+* [DotEnv](https://www.npmjs.com/package/dotenv)
+
+* AJAX
+
+* JavaScipt 
+
+* JavaScript Node 
+
+
+   
