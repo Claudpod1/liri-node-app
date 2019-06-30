@@ -27,7 +27,7 @@ function logThis(results) {
         if (err) {
             return err
 
-        }else{
+        } else {
             console.log("The log.txt was updated.")
         }
     })
@@ -35,131 +35,137 @@ function logThis(results) {
 
 function moviethis(info) {
 
-            if (!info) {
-                info = "Mr.Nobody";
+    if (!info) {
+        info = "Mr.Nobody";
+    }
+
+    console.log(info);
+
+    var queryUrl = "http://www.omdbapi.com/?t=" + info + "&y=&plot=short&apikey=trilogy";
+
+    axios.get(queryUrl).then(
+
+        function (response) {
+
+            var movieResult = []
+            console.log("Title of the movie:" + response.data.Title);
+            console.log("Release Year:" + response.data.Year);
+            console.log("Rating:" + response.data.Rated);
+            console.log("Rotten Tomatoes Rating:" + response.data.Ratings[0].Value);
+            console.log("Country where the the movie was produced:" + response.data.Country);
+            console.log("Language:" + response.data.Language);
+            console.log("Plot of the movie:" + response.data.Plot);
+            console.log("Actors in the movie:" + response.data.Actors);
+            movieResult.push(response.data.Title, response.data.Year, response.data.Rated, response.data.Ratings[0].Value, response.data.Country, response.data.Language, response.data.Plot, response.data.Actors)
+            logThis(movieResult);
+        })
+        .catch(function (error) {
+            if (error.response) {
+                console.log("---------------Data---------------");
+                console.log(error.response.data);
+            } else if (error.request) {
+                console.log(error.request);
+            } else {
+                console.log("Error", error.message);
             }
 
-            console.log(info);
-
-            var queryUrl = "http://www.omdbapi.com/?t=" + info + "&y=&plot=short&apikey=trilogy";
-
-            axios.get(queryUrl).then(
-             
-                function (response) {
-
-                    var movieResult = []
-                    console.log("Title of the movie:" + response.data.Title);
-                    console.log("Release Year:" + response.data.Year);
-                    console.log("Rating:" + response.data.Rated);
-                    console.log("Rotten Tomatoes Rating:" + response.data.Ratings[0].Value);
-                    console.log("Country where the the movie was produced:" + response.data.Country);
-                    console.log("Language:" + response.data.Language);
-                    console.log("Plot of the movie:" + response.data.Plot);
-                    console.log("Actors in the movie:" + response.data.Actors); 
-                    movieResult.push(response.data.Title, response.data.Year,response.data.Rated,response.data.Ratings[0].Value,response.data.Country , response.data.Language,response.data.Plot, response.data.Actors )
-                    logThis(movieResult);
-                })
-
-                .catch(function (error) {
-                    if (error.response) {
-                        console.log("---------------Data---------------");
-                        console.log(error.response.data);
-                    } else if (error.request) {
-                        console.log(error.request);
-                    } else {
-                        console.log("Error", error.message);
-                    }
-
-                    console.log(error.config);
-                });
-        }
+            console.log(error.config);
+        });
+}
 
 
 function concertthis(info) {
 
-            var queryUrl = "https://rest.bandsintown.com/artists/" + info + "/events?app_id=codingbootcamp";
-            //put in the momemt ????
-            axios.get(queryUrl).then(
+    var queryUrl = "https://rest.bandsintown.com/artists/" + info + "/events?app_id=codingbootcamp";
+    //put in the momemt ????
+    axios.get(queryUrl).then(
 
-                function (response) {
-                    console.log(response.data.length);
+        function (response) {
+            console.log(response.data.length);
 
-                    if (response.data.length === 0) {
-                        console.log("There are no upcoming shows");
+            if (response.data.length === 0) {
+                console.log("There are no upcoming shows");
 
-                    } else {
-                        for (var i = 0; i < response.data.length; i++) {
+            } else {
+                for (var i = 0; i < response.data.length; i++) {
+                    var concertResult = []
 
-                            console.log("Upcoming upcoming concerts for: " + response.data[i].lineup);
-                            console.log("Location " + response.data[i].venue.name);
-                            //      * Date of the Event (use moment to format this as "MM/DD/YYYY")
-                            console.log("Date: " + (moment(response.data[i].datetime).format('LLL')));
-                        }
+                    console.log("Upcoming upcoming concerts for: " + response.data[i].lineup);
+                    console.log("Location " + response.data[i].venue.name);
+                    //      * Date of the Event (use moment to format this as "MM/DD/YYYY")
+                    console.log("Date: " + (moment(response.data[i].datetime).format('LLL')));
+                    console.log("-----------------------------------------------------");
+                    concertResult.push(response.data[i].lineup, response.data[i].venue.name,(moment(response.data[i].datetime).format('LLL')))
+                    logThis(concertResult);
 
-                    }
-                })
-        }
+                }
+
+            }
+        })
+}
 
 
 function spotifythis(info) {
 
-            if (!info) {
-                info = "The Sign";
-            }
-            spotify.search({ type: 'track', query: info, limit: 5 }, function (err, data) {
+    if (!info) {
+        info = "The Sign";
+    }
+    spotify.search({ type: 'track', query: info, limit: 5 }, function (err, data) {
 
-
-                if (err) {
-                    return console.log('Error occurred: ' + err);
-                }
-                var responseData = data.tracks;
-
-                for (var i = 0; i < responseData.items.length; i++) {
-                    console.log("Spotify this song artist(s): " + responseData.items[i].artists[0].name);
-                    console.log("The song's name: " + responseData.items[i].name);
-                    console.log("A preview link of the song from spotify:" + responseData.items[i].external_urls.spotify);
-                    console.log("The album that the song is from: " + responseData.items[i].album.name);
-                    console.log("-----------------------------------------------------");
-                }
-
-
-            })
-
+        var spotifyResult =[]
+        if (err) {
+            return console.log('Error occurred: ' + err);
         }
+        var responseData = data.tracks;
+
+        for (var i = 0; i < responseData.items.length; i++) {
+            console.log("Spotify this song artist(s): " + responseData.items[i].artists[0].name);
+            console.log("The song's name: " + responseData.items[i].name);
+            console.log("A preview link of the song from spotify:" + responseData.items[i].external_urls.spotify);
+            console.log("The album that the song is from: " + responseData.items[i].album.name);
+            console.log("-----------------------------------------------------");
+            spotifyResult.push(responseData.items[i].artists[0].name, responseData.items[i].name, responseData.items[i].external_urls.spotify, responseData.items[i].album.name)
+            logThis(spotifyResult);
+        }
+
+
+    })
+
+}
 
 
 
 
 function dothis() {
-            fs.readFile("random.txt", "utf8", function (err, data) {
-                if (err) return console.log(err);
-                var dataArray = data.split(",");
-                console.log(dataArray);
-                switCase(dataArray[0], dataArray[1])
-            })
+    fs.readFile("random.txt", "utf8", function (err, data) {
+        if (err) return console.log(err);
+        var dataArray = data.split(",");
+        console.log(dataArray);
+        switCase(dataArray[0], dataArray[1])
+    })
 
-        }
+}
 
 // need to use slice somewhere 
 
 function switCase(command, info) {
-            switch (command) {
-                case "concert-this":
-                    concertthis(info);
-                    break;
-                case "spotify-this-song":
-                    spotifythis(info);
-                    break;
-                case "movie-this":
-                    moviethis(info);
-                    break;
-                case "do-what-it-says":
-                    dothis();
-                    break;
+    switch (command) {
+        case "concert-this":
+            concertthis(info);
+            break;
+        case "spotify-this-song":
+            spotifythis(info);
+            break;
+        case "movie-this":
+            moviethis(info);
+            break;
+        case "do-what-it-says":
+            dothis();
+            break;
 
-                default:
-                    return console.log("Please enter a valid command");
-            }
-        }
+        default:
+            return console.log("Please enter a valid command");
+    }
+}
 
 switCase(action, user);
