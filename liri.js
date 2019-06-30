@@ -146,7 +146,7 @@ function dothis() {
 
 }
 
-// need to use slice somewhere 
+
 
 function switCase(command, info) {
     switch (command) {
