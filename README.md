@@ -26,7 +26,7 @@ First, the user would go into there bash/terminal and run one of the node functi
 
 Below is a screenshot of the output for the example of the movie Titanic. 
 
-<img src ="images/MOVIE-THIS.png" width = 500px height = 200px>
+<img src ="images/MOVIE-THIS.png" width = 600px height = 350px>
 
 
 
@@ -41,7 +41,7 @@ In the spotify-this-song function, the user is able to search for any song. In r
 
 Below is a screenshot of the output for the example of the song happy. 
 
-<img src ="images/Spotify-this.png" width = 500px height = 200px>
+<img src ="images/Spotify-this.png" width = 600px height = 350px>
 
 
 
@@ -54,7 +54,7 @@ In the concert-this function, the user is able to search for any artist. In retu
 
 Below is a screenshot of the output for the example of the artist Ariana Grande. 
 
-<img src ="images/concert-this.png" width = 500px height = 200px>
+<img src ="images/concert-this.png" width = 600px height = 350px>
 
 
 
@@ -62,7 +62,7 @@ In the do-what-it-says function, LIRI will take the text inside of random.txt an
 
 Below is a screenshot of the output for the example of do-what-it-says
 
-<img src ="images/dowhatitsays.png" width = 500px height = 200px>
+<img src ="images/dowhatitsays.png" width = 600px height = 350px>
 
 
 
