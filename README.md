@@ -8,11 +8,11 @@ The liri-node app is an JavaScript Node Application that can perform four differ
 
 *Before using any of these functions the user would need to install in there bash/terminal: axios, moment, spotify, and require.
 
-The Application allows the user to use one of these functions one at a time to for example "movie-this". 
+The Application allows the user to use one of these functions one at a time.  For example;"movie-this". 
 
-First, the user would go into there bash/terminal and run one of the node functions by typing in node movie-this _________(whatever movie you choose). Then run the function. 
+First, the user would go into there bash/terminal and run one of the node functions by typing in node movie-this _________(whatever movie you choose). Then run the function. The output results include:
 
-Below is a screenshot of the output for the example of Titanic. The user is able to get
+
 * Title of the movie
 * Release Year 
 * Rating
@@ -23,7 +23,27 @@ Below is a screenshot of the output for the example of Titanic. The user is able
 
 --Then updates that search to the log.txt file.-- 
 
-<img src ="images/MOVIE-THIS.png" width = 300px height = 300px>
+
+Below is a screenshot of the output for the example of the movie Titanic. 
+
+<img src ="images/MOVIE-THIS.png" width = 800px height = 600px>
+
+
+
+In the spotify-this-song function, the user is able to search for any song. In return will get output fields includeing:
+* Artist(s)
+* The song's name 
+* A preview link of the song from Spotify
+* The album that the song is from 
+* If there is no song the progema will default to "The Sign" by Ace of Base. 
+
+--Then updates that search to the log.txt file.-- 
+
+Below is a screenshot of the output for the example of the song happy. 
+
+<img src ="images/Spotify-this.png" width = 800px height = 600px>
+
+
 
 
 
