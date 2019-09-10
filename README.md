@@ -1,13 +1,18 @@
+<b> Homework: To make LIRI an Language Inpretation and Recognition Interface. </b>
+
 # liri-node-app
 
-https://claudpod1.github.io/liri-node-app/
+Link to video of how LIRI WORKS. 
+https://www.youtube.com/watch?v=zF6K-rmgbgs&feature=youtu.be
 
-
+<b> About </b>
 The liri-node app is an JavaScript Node Application that can perform four different functions on the back-end, which means we do not need the brownser to run JavaScript. The Liri can perform four functions including:
 1. concert-this
 2. spotify-this-song
 3. movie-this
 4. do-what-it-says
+
+<b> Functionally </b> 
 
 *Before using any of these functions the user would need to install in there bash/terminal: axios, moment, spotify, and require.
 
@@ -69,8 +74,7 @@ Below is a screenshot of the output for the example of do-what-it-says
 
 
 
-
- TECHnologies used in the application: 
+ <b> TECHnologies used in the application: </b>
 
 * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
 
